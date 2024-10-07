@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 30px;
+}
+
+.container-card {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon-card {
+  background: white;
+  width: 200px;
+  display: inline-block;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+  border-radius: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.pokemon-card-battle {
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.pokemon-card-image {
+  position: relative;
+  height: 180px;
+ border-radius: 10px 10px 0px 0px;
+}
+.pokemon-card_image_battle {
+  position: relative;
+  height: 180px;
+  margin-bottom: 35px;
+ border-radius: 10px 10px 0px 0px;
+}
+.pokemon-card_image_battle img {
+  width: 250px;
+  position: absolute;
+  top: -45px;
+  left: 30px;
+}
+
+.pokemon-card-image img{
+    width: 200px;
+    position: absolute;    
+    top: -45px;
+    left: -10px;
+}
+
+.pokemon-card-description {
+  padding: 10px;
+  margin: 10px 0;  
+  display: flex;
+  align-items: center;
+}
+
+.pokemon-card-description span {
+  font-weight: 600;
+}
+
+
+.container-battle {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.ganador {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
